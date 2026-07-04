@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap');
+
+.heading {
+    font-family: "Bellefair", serif;
+}
+
+.subheading {
+    font-family: "Barlow Condensed", sans-serif;
+    text-transform: uppercase;
+}
+
+.body {
+    font-family: "Barlow", sans-serif;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}

@@ -11,11 +11,11 @@ const links = [
     { id: 4, number: '03', name: "Technology", href: "/technology" },
 ];
 
-const passiveLink = `text-white text-sm subheading tracking-widest after:absolute after:-bottom-8.5
+const passiveLink = `text-white text-sm subheading tracking-widest after:absolute after:-bottom-8
 after:left-0 after:h-0.5 after:w-full after:origin-left after:scale-x-0 after:bg-white 
 after:transition-transform after:duration-300 hover:after:scale-x-100 relative`;
 
-const activeLink = `text-white text-sm subheading tracking-widest after:absolute after:-bottom-0.5
+const activeLink = `text-white text-sm subheading tracking-widest after:absolute after:bottom-0
 after:left-0 after:h-0.5 after:w-full after:bg-white after:scale-x-100 relative py-8`;
 
 const passiveLinkMobile = `text-white text-left subheading tracking-widest block w-full py-3 pl-2 relative

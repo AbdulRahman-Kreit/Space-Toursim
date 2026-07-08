@@ -16,6 +16,6 @@
 
 button {
     background: none;
-    border: none;
+    border: inherit;
     cursor: pointer;
 }

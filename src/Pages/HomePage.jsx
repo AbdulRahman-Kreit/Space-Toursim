@@ -1,6 +1,7 @@
+import { memo } from "react";
 import { Link } from "react-router";
 
-export default function HomePage() {
+const HomePage = memo(() => {
     const pageBackground = `bg-[url('../src/assets/home/background-home-mobile.jpg')]
     md:bg-[url('../src/assets/home/background-home-tablet.jpg')]
     lg:bg-[url('../src/assets/home/background-home-desktop.jpg')] bg-cover`;
@@ -11,8 +12,8 @@ export default function HomePage() {
     hover:shadow-[0_0_0_50px_rgba(255,255,255,0.1)]`;
 
     return (
-        <section className={`${pageBackground} w-full min-h-screen
-        top-0 left-0 pt-80 pb-26 px-30`}>
+        <section className={`${pageBackground} w-full min-h-screen top-0 left-0 pt-80 
+        pb-26 px-30`}>
             <div className="flex flex-col lg:flex-row justify-between items-center w-full">
                 <div className="flex flex-col items-center lg:items-start text-center lg:text-left 
                 gap-y-2">
@@ -40,4 +41,6 @@ export default function HomePage() {
             
         </section>
     )
-}
+})
+
+export default HomePage;

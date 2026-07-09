@@ -12,7 +12,7 @@ export default function Destination() {
     const currentTab = activeDestinationTab[0];
 
     const { name, images, alt, description, distance, travel } = currentTab;
-    const { webp } = images;
+    const { png } = images;
 
     // Style Variables
     const passiveButton = `text-white text-sm subheading tracking-widest after:absolute 
@@ -31,7 +31,7 @@ export default function Destination() {
     return (
         <div className="flex flex-col lg:flex-row items-center mt-22 gap-32 text-white">
             <div>
-                <img src={webp} alt={alt} className="w-75 lg:w-100"/>
+                <img src={png} alt={alt} className="w-75 lg:w-100"/>
             </div>
             <div className="flex flex-col items-center lg:items-start lg:mt-0"> 
                 <div className="flex flex-row">

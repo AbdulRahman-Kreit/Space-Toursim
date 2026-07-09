@@ -4,9 +4,9 @@ import LoadingSpinner from "../Components/LoadingSpinner";
 const Crew = lazy(() => import("../Components/Crew"));
 
 const CrewPage = memo(() => {
-    const pageBackground = `bg-[url('../../public/assets/crew/background-crew-mobile.jpg')]
-    md:bg-[url('../../public/assets/crew/background-crew-tablet.jpg')]
-    lg:bg-[url('../../public/assets/crew/background-crew-desktop.jpg')] bg-cover`;
+    const pageBackground = `bg-[url('../src/assets/crew/background-crew-mobile.jpg')]
+    md:bg-[url('../src/assets/crew/background-crew-tablet.jpg')]
+    lg:bg-[url('../src/assets/crew/background-crew-desktop.jpg')] bg-cover`;
 
     return (
         <section className={`${pageBackground} w-full min-h-screen top-0 left-0 pt-40 

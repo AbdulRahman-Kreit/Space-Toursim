@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { NavLink } from "react-router"
-import Logo from "../assets/shared/logo.svg"
-import MobileMenu from "../assets/shared/icon-hamburger.svg"
-import Close from "../assets/shared/icon-close.svg"
+import Logo from "../../public/assets/shared/logo.svg"
+import MobileMenu from "../../public/assets/shared/icon-hamburger.svg"
+import Close from "../../public/assets/shared/icon-close.svg"
 
 const links = [
     { id: 1, number: '00', name: "Home", href: "/" },

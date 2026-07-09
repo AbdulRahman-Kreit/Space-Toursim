@@ -4,9 +4,9 @@ import LoadingSpinner from "../Components/LoadingSpinner";
 const Technology = lazy(() => import("../Components/Technology"));
 
 const TechnologyPage = memo(() => {
-    const pageBackground = `bg-[url('../src/assets/technology/background-technology-mobile.jpg')]
-    md:bg-[url('../src/assets/technology/background-technology-tablet.jpg')]
-    lg:bg-[url('../src/assets/technology/background-technology-desktop.jpg')] bg-cover`;
+    const pageBackground = `bg-[url('../../public/assets/technology/background-technology-mobile.jpg')]
+    md:bg-[url('../../public/assets/technology/background-technology-tablet.jpg')]
+    lg:bg-[url('../../public/assets/technology/background-technology-desktop.jpg')] bg-cover`;
 
     return (
         <section className={`${pageBackground} w-full min-h-screen top-0 left-0 pt-40 

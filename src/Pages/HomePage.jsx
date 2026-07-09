@@ -2,9 +2,9 @@ import { memo } from "react";
 import { Link } from "react-router";
 
 const HomePage = memo(() => {
-    const pageBackground = `bg-[url('../src/assets/home/background-home-mobile.jpg')]
-    md:bg-[url('../src/assets/home/background-home-tablet.jpg')]
-    lg:bg-[url('../src/assets/home/background-home-desktop.jpg')] bg-cover`;
+    const pageBackground = `bg-[url('../../public/assets/home/background-home-mobile.jpg')]
+    md:bg-[url('../../public/assets/home/background-home-tablet.jpg')]
+    lg:bg-[url('../../public/assets/home/background-home-desktop.jpg')] bg-cover`;
 
     const buttonStyle = `w-48 h-48 md:w-64 md:h-64 rounded-full bg-white  flex 
     items-center justify-center text-black text-2xl md:text-3xl heading tracking-widest 
